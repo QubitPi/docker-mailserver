@@ -1,13 +1,11 @@
 name: 'Documentation'
 
 on:
+  pull_request:
   workflow_dispatch:
   push:
     branches:
       - master
-    paths:
-      - '.github/workflows/deploy-docs.yml'
-      - 'docs/**'
     # Responds to tags being pushed (branches and paths conditions above do not apply to tags).
     # Takes a snapshot of the docs from the tag (unaffected by branch or path restraints above),
     # Stores build in a subdirectory with name matching the git tag `v<MAJOR>.<MINOR>` substring:
@@ -18,8 +16,8 @@ env:
   # Default docs version to build and deploy:
   DOCS_VERSION: edge
   # Assign commit authorship to official Github Actions bot when pushing to the `gh-pages` branch:
-  GIT_USER: 'github-actions[bot]'
-  GIT_EMAIL: '41898282+github-actions[bot]@users.noreply.github.com'
+  GIT_USER: 'QubitPi'
+  GIT_EMAIL: 'jack20220723@gmail.com'
 
 jobs:
   deploy:
@@ -68,6 +66,7 @@ jobs:
           destination_dir: ${{ env.DOCS_VERSION }}
           user_name: ${{ env.GIT_USER }}
           user_email: ${{ env.GIT_EMAIL }}
+          cname: mail.qubitpi.org
 
   add-version-to-docs:
     permissions:
