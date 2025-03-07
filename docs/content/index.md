@@ -2,6 +2,12 @@
 title: Home
 ---
 
+!!! warning "Disclaimer on Non-official documentation"
+
+    This site (mail.qubitpi.org/edge) is NOT the official docker-mailser documentation! The content here is use for
+    personal study only. The official docker-mailserver documentation is at
+    [https://docker-mailserver.github.io/docker-mailserver/latest/](https://docker-mailserver.github.io/docker-mailserver/latest/).
+
 # Welcome to the Documentation for `docker-mailserver`!
 
 !!! info "This Documentation is Versioned"
