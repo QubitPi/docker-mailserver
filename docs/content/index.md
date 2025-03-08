@@ -26,7 +26,7 @@ This documentation provides you not only with the basic setup and configuration 
 
 ### Getting Started
 
-If you're completely new to mail servers or you want to read up on them, check out our [_Introduction_ page][docs-introduction]. If you're new to DMS as a mail server appliance, make sure to read the [_Usage_ chapter][docs-usage] first. If you want to look at examples for Docker Compose, we have an [_Examples_ page][docs-examples].
+If you're completely new to mail servers or you want to read up on them, check out our [_Mail Server 101_ page][docs-introduction]. If you're new to DMS as a mail server appliance, make sure to read the [_Usage_ chapter][docs-usage] first. If you want to look at examples for Docker Compose, we have an [_Examples_ page][docs-examples].
 
 There is also a script - [`setup.sh`][github-file-setupsh] - supplied with this project. It supports you in configuring and administrating your server. Information on how to get it and how to use it is available [on a dedicated page][docs-setupsh].
 
