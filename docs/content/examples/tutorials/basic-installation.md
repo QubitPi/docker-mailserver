@@ -2,6 +2,12 @@
 title: 'Tutorials | Basic Installation'
 ---
 
+!!! warning "Disclaimer on Non-official documentation"
+
+    This site (mail.qubitpi.org/edge) is NOT the official docker-mailser documentation! The content here is use for
+    personal study only. The official docker-mailserver documentation is at
+    [https://docker-mailserver.github.io/docker-mailserver/latest/](https://docker-mailserver.github.io/docker-mailserver/latest/).
+
 ## A Basic Example With Relevant Environmental Variables
 
 This example provides you only with a basic example of what a minimal setup could look like. We **strongly recommend** that you go through the configuration file yourself and adjust everything to your needs. The default [compose.yaml](https://github.com/docker-mailserver/docker-mailserver/blob/master/compose.yaml) can be used for the purpose out-of-the-box, see the [_Usage_ chapter](../../usage.md).

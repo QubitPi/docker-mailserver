@@ -1,6 +1,12 @@
 ---
-title: Usage
+title: Setup Guide
 ---
+
+!!! warning "Disclaimer on Non-official documentation"
+
+    This site (mail.qubitpi.org/edge) is NOT the official docker-mailser documentation! The content here is use for
+    personal study only. The official docker-mailserver documentation is at
+    [https://docker-mailserver.github.io/docker-mailserver/latest/](https://docker-mailserver.github.io/docker-mailserver/latest/).
 
 This page explains how to get started with DMS. The guide uses Docker Compose as a reference. In our examples, a volume mounts the host location [`docker-data/dms/config/`][docs::dms-volumes-config] to `/tmp/docker-mailserver/` inside the container.
 
@@ -39,7 +45,8 @@ The DNS setup is a big and essential part of the whole setup. There is a lot of 
 
 Now let's say you just bought `example.com` and you want to be able to send and receive e-mails for the address `test@example.com`. On the most basic level, you will need to
 
-1. set an `MX` record for your domain `example.com` - in our example, the MX record contains `mail.example.com`
+1. set an `MX` record for your domain `example.com` - in our example, the MX record contains `mail.example.com`. The [AWS Route 53](https://aws.amazon.com/route53/) domain setup for this example would be as follows:
+    ![MX record example "Error loading mx-record-excample.png"](./img/mx-record-excample.png)
 2. set an `A` record that resolves the name of your mail server - in our example, the A record contains `11.22.33.44`
 3. (in a best-case scenario) set a `PTR` record that resolves the IP of your mail server - in our example, the PTR contains `mail.example.com`
 
