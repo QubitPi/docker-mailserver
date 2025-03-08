@@ -134,8 +134,8 @@ markdown_extensions:
 #   - 3rd level and beyond are automatically expanded in the sidebar instead of collapsed (due to `theme.features.navigation.expand`)
 nav:
   - 'Home': index.md
-  - 'Introduction': introduction.md
-  - 'Usage': usage.md
+  - 'Mail Server 101': introduction.md
+  - 'Setup Guide': usage.md
   - 'Configuration':
     - 'Environment Variables': config/environment.md
     - 'Account Management':
