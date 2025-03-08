@@ -26,7 +26,7 @@
     
     
       
-        <title>Usage - Docker Mailserver</title>
+        <title>Setup Guide - Docker Mailserver</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Usage
+              Setup Guide
             
           </span>
         </div>
@@ -246,7 +246,7 @@
   
     
   
-  Introduction
+  Mail Server 101
 
       </a>
     </li>
@@ -265,7 +265,7 @@
   
     
   
-  Usage
+  Setup Guide
 
       </a>
     </li>
@@ -462,7 +462,7 @@
         
   
   <span class="md-ellipsis">
-    Introduction
+    Mail Server 101
     
   </span>
   
@@ -490,7 +490,7 @@
           
   
   <span class="md-ellipsis">
-    Usage
+    Setup Guide
     
   </span>
   
@@ -502,7 +502,7 @@
         
   
   <span class="md-ellipsis">
-    Usage
+    Setup Guide
     
   </span>
   
@@ -2654,8 +2654,14 @@
   
 
 
-  <h1>Usage</h1>
+  <h1>Setup Guide</h1>
 
+<div class="admonition warning">
+<p class="admonition-title">Disclaimer on Non-official documentation</p>
+<p>This site (mail.qubitpi.org/edge) is NOT the official docker-mailser documentation! The content here is use for
+personal study only. The official docker-mailserver documentation is at
+<a href="https://docker-mailserver.github.io/docker-mailserver/latest/">https://docker-mailserver.github.io/docker-mailserver/latest/</a>.</p>
+</div>
 <p>This page explains how to get started with DMS. The guide uses Docker Compose as a reference. In our examples, a volume mounts the host location <a href="../config/advanced/optional-config/#volumes-config"><code>docker-data/dms/config/</code></a> to <code>/tmp/docker-mailserver/</code> inside the container.</p>
 <h2 id="preliminary-steps"><a class="toclink" href="#preliminary-steps">Preliminary Steps</a></h2>
 <p>Before you can get started with deploying your own mail server, there are some requirements to be met:</p>
@@ -2679,7 +2685,8 @@
 <p>The DNS setup is a big and essential part of the whole setup. There is a lot of confusion for newcomers and people starting out when setting up DNS. This section provides an example configuration and supplementary explanation.  We expect you to be at least a bit familiar with DNS, what it does and what the individual record types are.</p>
 <p>Now let's say you just bought <code>example.com</code> and you want to be able to send and receive e-mails for the address <code>test@example.com</code>. On the most basic level, you will need to</p>
 <ol>
-<li>set an <code>MX</code> record for your domain <code>example.com</code> - in our example, the MX record contains <code>mail.example.com</code></li>
+<li>set an <code>MX</code> record for your domain <code>example.com</code> - in our example, the MX record contains <code>mail.example.com</code>. The <a href="https://aws.amazon.com/route53/">AWS Route 53</a> domain setup for this example would be as follows:
+    <img alt="MX record example &quot;Error loading mx-record-excample.png&quot;" src="../img/mx-record-excample.png" /></li>
 <li>set an <code>A</code> record that resolves the name of your mail server - in our example, the A record contains <code>11.22.33.44</code></li>
 <li>(in a best-case scenario) set a <code>PTR</code> record that resolves the IP of your mail server - in our example, the PTR contains <code>mail.example.com</code></li>
 </ol>
