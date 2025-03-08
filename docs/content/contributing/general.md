@@ -2,6 +2,12 @@
 title: 'Contributing | General Information'
 ---
 
+!!! warning "Disclaimer on Non-official documentation"
+
+    This site (mail.qubitpi.org/edge) is NOT the official docker-mailser documentation! The content here is use for
+    personal study only. The official docker-mailserver documentation is at
+    [https://docker-mailserver.github.io/docker-mailserver/latest/](https://docker-mailserver.github.io/docker-mailserver/latest/).
+
 ## Coding Style
 
 When refactoring, writing or altering scripts or other files, adhere to these rules:
