@@ -6,7 +6,7 @@ copyright: '<p>&copy <a href="https://github.com/docker-mailserver"><em>Docker M
 
 # Project source specific:
 repo_name: 'docker-mailserver'
-repo_url: 'https://github.com/docker-mailserver/docker-mailserver'
+repo_url: 'https://github.com/QubitPi/docker-mailserver'
 
 # All docs `edit` button will go to this subpath of the `repo_url`:
 # For versioned docs, this may be a little misleading for a user not viewing the `edge` docs which match the `master` branch.
@@ -20,7 +20,7 @@ docs_dir: 'content/'
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Choosing_between_www_and_non-www_URLs#using_%3Clink_relcanonical%3E
 # Also required for `sitemap.xml` generation at build time; which bots use to assist them crawling and indexing a website,
 # the `mkdocs-material` 'Instant Navigation' feature utilizes the sitemap data to work.
-site_url: 'https://docker-mailserver.github.io/docker-mailserver/edge/'
+site_url: 'https://mail.qubitpi.org/edge/'
 
 # Anything related to the `mkdocs-material` theme config goes here:
 theme:
