@@ -2,206 +2,206 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mail.qubitpi.org/edge/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/faq/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/introduction/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/usage/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/debugging/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/environment/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/pop3/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/setup.sh/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/account-management/overview/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/account-management/provisioner/file/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/account-management/provisioner/ldap/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/account-management/supplementary/master-accounts/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/account-management/supplementary/oauth2/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/full-text-search/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/ipv6/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/kubernetes/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-fetchmail/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-getmail/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-sieve/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/optional-config/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/podman/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-forwarding/aws-ses/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-forwarding/gmail-smtp/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/mail-forwarding/relay-hosts/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/maintenance/update-and-cleanup/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/override-defaults/dovecot/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/override-defaults/postfix/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/advanced/override-defaults/user-patches/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/best-practices/autodiscover/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/best-practices/dkim_dmarc_spf/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/best-practices/mta-sts/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/security/fail2ban/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/security/mail_crypt/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/security/rspamd/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/security/ssl/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/config/security/understanding-the-ports/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/contributing/general/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/contributing/issues-and-pull-requests/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/contributing/tests/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/basic-installation/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/blog-posts/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/crowdsec/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/docker-build/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/dovecot-solr/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/tutorials/mailserver-behind-proxy/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/auth-lua/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/bind-smtp-network-interface/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/external-relay-only-mailserver/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/forward-only-mailserver-with-ldap-authentication/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/imap-folders/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
     <url>
          <loc>https://mail.qubitpi.org/edge/examples/use-cases/ios-mail-push-support/</loc>
-         <lastmod>2025-08-03</lastmod>
+         <lastmod>2025-08-05</lastmod>
     </url>
 </urlset>
